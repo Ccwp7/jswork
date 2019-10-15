@@ -1,9 +1,25 @@
-<html>
 
-<head>
+    <html>
+
+      <head>
+      <meta charset="UTF-8">
+      <script type="text/javascript">
+            function sasa_prompt() {
+                var dazai=prompt("","");
+                console.log("爷爷说:",dazai); 
+            }
+           function disp_prompt() {
+                var xiaozai=prompt("","");
+                console.log("爸爸说:",xiaozai);
   
-        <script>
-          </script>
-           </head>
-    </body>
-    <input type="button" >
+           }
+  
+      </script>
+     </head>
+     
+      <body>
+          <input type="button"  onclick="sasa_prompt()" value="爷爷说"/>
+          <input type="button"  onclick="disp_prompt()" value="爸爸说"/>
+      </body>
+      
+  </html>
