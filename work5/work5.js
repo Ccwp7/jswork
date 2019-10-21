@@ -1,7 +1,7 @@
-str='<table border="1">';
-for(let i=1;i<10;++i){
-    str +='<tr>'
-    for(var j=1;j<=i;++j){
+str = '<table border="1">'
+for(let i=9;i>0;--i){
+    str += '<tr>'
+    for(var j=9;j>0;--j){
         str +='<td>&nbsp;</td>'
     }
     str +='</tr>'
