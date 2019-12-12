@@ -1,0 +1,30 @@
+.box{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.big{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 360px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: none;
+}
+
+.small{
+    position: relative;
+}
+
+.box img{
+    vertical-align: top;
+    vertical-align: top;
+}
+
+#bigBox{
+    position: absolute;
+}
