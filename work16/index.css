@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .box {
     width: 350px;
     height: 350px;
@@ -6,16 +5,6 @@
     position: relative
 }
 .big {
-=======
-.box{
-    width: 350px;
-    height: 350px;
-    border: 1px solid #ccc;
-    position: relative;
-}
-
-.big{
->>>>>>> c2db7518e1bd68cc4508755af6e9e37347b6a7e4
     width: 400px;
     height: 400px;
     position: absolute;
@@ -23,7 +12,6 @@
     left: 360px;
     border: 1px solid #ccc;
     overflow: hidden;
-<<<<<<< HEAD
     display: none
 }
 .mask {
@@ -44,20 +32,4 @@
 }
 #bigBox img {
     position: absolute
-=======
-    display: none;
-}
-
-.small{
-    position: relative;
-}
-
-.box img{
-    vertical-align: top;
-    vertical-align: top;
-}
-
-#bigBox{
-    position: absolute;
->>>>>>> c2db7518e1bd68cc4508755af6e9e37347b6a7e4
 }
