@@ -1,7 +1,6 @@
 {
   "name": "jswork",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -20,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/Ccwp7/jswork/issues"
   },
-  "homepage": "https://github.com/Ccwp7/jswork#readme"
+  "homepage": "https://github.com/Ccwp7/jswork#readme",
+  "description": ""
 }

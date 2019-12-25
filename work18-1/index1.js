@@ -56,7 +56,7 @@
     Comment.prototype.create = function(data){
         var html = '';
         for(var i in data){
-            html += '<ul><li>id:'+data[i].id+'  用户名：'+data[i].user + '  发表内容：';
+            html += '<ul><li>id:'+data[i].id+'  用户名：'+data[i].user + '  发表时间：';
             html += data[i].time + '</li>';
             html += '<li>' + data[i].content +'</li></ul>';
         }
@@ -113,7 +113,7 @@
         last: document.getElementById('page_last'),
         pageNum: document.getElementById('page_num'),
         onChange: function(){
-            comment.ajax('http://139.9.81.203:8090/ajax?page='+ this.page, function(){
+            comment.ajax('http://localhost:8080/ajax?page='+ this.page, function(){
                 progressBar = new ProgressBar(progressContainer);
                 progressBar.show();
             },function(obj){
